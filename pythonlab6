@@ -1,0 +1,20 @@
+ENGINEERING_TERMS = {
+               "ALLOY": "A substance having metallic properties and composed of two or more chemical elements of which at least one is metal. Usually possesses qualities different from those of the components.",            
+               "ARC WELDING": "It is a welding process in which an electrical arc is used to heat the metal at the weld point.",
+                "AXLE WEIGH BRIDGE": "An axle weigh bridge is a large measurement device used to weight complete vehicles such as trucks and tractor trailers.",
+                "BACK DRAFT": "Reverse taper which would prevent removal of a pattern from a mold or a core from a corebox.",
+                "BREAKOUT": "An accident caused by the failure of the walls of the hearth of the furnace resulting in liquid iron or slag (or both) flowing uncontrolled out of the blast furnace.",
+                "BUTTERFLY VALVES": "It is a flow control device that uses a circular plate to regulate flow through the valve.",
+                "CASE": "The surface layer of an iron base alloy which has been suitably altered in composition and can be made substantially harder than the interior or core by heat treatment.",
+                "CELLS": "Plastic tanks that contain anodes and plater solution. The strip goes through the cells during the coating process.",
+                "DEAD END": "The end of a water line, the point where the flow stops.",
+                "DEVICE": "A combination of individual components that are arranged to form a unit with a specific set of operating parameters.",
+                "DIE": "A metal block used in forming materials by casting, molding, stamping, threading, or extruding.",
+                "EFFICIENCY": "The ratio of output to input.",
+                 "YIELD RATIO": "The ratio of yield strength to ultimate tensile strength.",
+                 "ZIRCON": "The mineral zircon silicate, ZrSiO4, a very high melting point acid refractory material used as a molding material in steel foundries.",
+                "ZIRCONIUM": "Silvery white, metallic element, mp 1860 B0C (3380 B0F), a powerful deoxidizer when added to molten steel.",                
+}
+                
+a = input("Enter an engineering term: ")
+print(ENGINEERING_TERMS[a])

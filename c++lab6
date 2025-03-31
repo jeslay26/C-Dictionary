@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main(){
+	string a; 
+	
+	cout<<"Enter an engineering term: ";
+	cin>>a;
+	
+	if (a == "ALLOY"){
+		cout<<"A substance having metallic properties and composed of two or more chemical elements of which at least one is metal. Usually possesses qualities different from those of the components.";
+	}else if(a == "ARC WELDING"){
+		cout<<"It is a welding process in which an electrical arc is used to heat the metal at the weld point.";
+	}else if(a == "AXLE WEIGH BRIDGE"){
+		cout<<"An axle weigh bridge is a large measurement device used to weight complete vehicles such as trucks and tractor trailers.";
+	}else if(a == "BACK DRAFT"){
+		cout<<"Reverse taper which would prevent removal of a pattern from a mold or a core from a corebox.";
+	}else if(a == "BREAKOUT"){
+		cout<<"An accident caused by the failure of the walls of the hearth of the furnace resulting in liquid iron or slag (or both) flowing uncontrolled out of the blast furnace.";
+	}else if(a == "BUTTERFLY VALVES"){
+		cout<<"It is a flow control device that uses a circular plate to regulate flow through the valve.";
+	}else if(a == "CASE"){
+		cout<<"The surface layer of an iron base alloy which has been suitably altered in composition and can be made substantially harder than the interior or core by heat treatment.";
+	}else if(a == "CELLS"){
+		cout<<"Plastic tanks that contain anodes and plater solution. The strip goes through the cells during the coating process.";
+	}else if(a == "DEAD END"){
+		cout<<"The end of a water line, the point where the flow stops.";
+	}else if(a == "DEVICE"){
+		cout<<"A combination of individual components that are arranged to form a unit with a specific set of operating parameters.";
+	}else if(a == "DIE"){
+		cout<<"A metal block used in forming materials by casting, molding, stamping, threading, or extruding.";
+	}else if(a == "EFFICIENCY"){
+		cout<<"The ratio of output to input.";
+	}else if(a == "YIELD RATIO"){
+		cout<<"The ratio of yield strength to ultimate tensile strength.";
+	}else if(a == "ZIRCON"){
+		cout<<"The mineral zircon silicate, ZrSiO4, a very high melting point acid refractory material used as a molding material in steel foundries.";
+	}else if(a == "ZIRCONIUM"){
+		cout<<"Silvery white, metallic element, mp 1860 B0C (3380 B0F), a powerful deoxidizer when added to molten steel.";
+		
+	}
+	return 0;
+}
+	
